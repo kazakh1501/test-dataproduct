@@ -1,0 +1,65 @@
+My Presentation
+========================================================
+author: kok hoe
+font-import: http://fonts.googleapis.com/css?family=Risque
+font-family: 'Risque'
+date: `r date()`
+
+First Slide
+========================================================
+transition: concave
+
+For more details on authoring R presentations click the
+**Help** button on the toolbar.
+
+- Bullet 1
+- Bullet 2
+- Bullet 3
+
+$x^2$
+$$ $$
+
+Slide With Code
+========================================================
+
+```{r}
+summary(cars)
+
+
+```
+
+Slide With Plot
+========================================================
+transition: rotate
+```{r, echo=FALSE}
+plot(cars)
+```
+
+Slide section
+========================================================
+type: section
+
+
+- section1 
+- section 2
+
+
+Here's a subsection
+===
+type: subsection
+
+subsection
+
+column 1
+***
+column 2
+column 3
+
+prompt slide
+========================================================
+type: prompt
+
+
+
+- prompt
+- section 2
